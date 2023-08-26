@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chatter App</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body style="background-color: rgb(0, 136, 255)">
+    <div class="container-sm text-center">
+      <header class="row">
+        <div class="col">Chatter</div>
+      </header>
+      <div class="row selectors">
+        <div class="col selectors-s selectors-active">Users</div>
+        <div class="col selectors-s">Groups</div>
+        <div class="col selectors-s">Channels</div>
+      </div>
+      <div class="baser">
+        <!-- <div class="row mainapp text-start">
+          <div class="col-2 user">
+            <img src="/assets/img/avatar.png" alt="avatar" />
+          </div>
+          <div class="col-10 user-p">
+            <p id="username">KiaN</p>
+            <span id="lastpm">Harf Shoma Doroste Vali Ma.......</span>
+          </div>
+        </div> -->
+        <div class="row chatapp text-start">
+          <div class="chat-content-leftside">
+            <div class="d-flex">
+              <div class="flex-grow-1 ms-2">
+                <p class="chat-left-msg">${message}</p>
+              </div>
+            </div>
+          </div>
+          <div class="chat-content-rightside">
+            <div class="d-flex">
+              <div class="flex-grow-1 me-2">
+                <p class="chat-right-msg">${message}</p>
+              </div>
+              <img
+                src="/assets-dashboard/images/avatars/avatar-2.png"
+                width="48"
+                height="48"
+                class="rounded-circle p-1"
+                alt="توضیح تصویر"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/app.js"></script>
+  </body>
+</html>
